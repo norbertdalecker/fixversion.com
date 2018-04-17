@@ -1,6 +1,6 @@
 # fixversion.com
 
-This repository contains the source code [fixversion.com](http://fixversion.com)
+This repository contains the source code [fixversion.com](https://fixversion.com)
 
 Thanks to [Aman Mittal](https://github.com/amandeepmittal/gatsby-starter-ceevee) for the gatsby starter.
 

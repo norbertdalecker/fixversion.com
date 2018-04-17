@@ -6,6 +6,10 @@ if (typeof window !== 'undefined') {
   // Make scroll behavior of internal links smooth
   // eslint-disable-next-line global-require
   require('smooth-scroll')('a[href*="#"]',{speed: 1000});
+  if (location.protocol != 'https:')
+  {
+   // location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+  }
 }
 const TemplateWrapper = ({ children }) => (
   <div>

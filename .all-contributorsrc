@@ -1,0 +1,23 @@
+{
+  "projectName": "fixversion.com",
+  "projectOwner": "norbertdalecker",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "norbertdalecker",
+      "name": "norbertdalecker",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/12936930?s=460&v=4",
+      "profile": "http://fixversion.com",
+      "contributions": [
+        "question",
+        "code",
+        "review",
+        "bug"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+:root {
+    --background: #fefefe;
+    --text: rgba(46, 62, 78, 1);
+    --hover: #f0c514;
+}
+.works-section {
+    padding: 40px 0px;
+    padding-bottom: 0em;
+    background: var(--background);
+}
+.works-section p {
+text-align: center;
+}
+.works-header {
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+}
+.works-header h3 {
+	font-size: 2.5em;
+	font-family: 'Arvo', serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: var(--hover);
+}
+.works-header h3 span {
+color: var(--text);
+}
+.works-header p {
+	line-height: 1.5em;
+	font-size: 15px;
+	color: var(--text);
+	padding: 25px 0;
+}
+
+.works {
+  text-align: center;
+    border-bottom: 1px solid var(--background);
+}
+
+/* ------------------------------------------------------------------ */
+/* h. works Section
+/* ------------------------------------------------------------------ */
+
+#works {
+    background: var(--background);
+    padding-top: 6em;
+    color: var(--background);
+  }
+  #works .section-head {
+    margin-bottom: 42px;
+  }
+  
+  #works a,
+  #works a:visited {
+    color: var(--text);
+  }
+  #works a:hover,
+  #works a:focus {
+    color:var(--hover);
+  }
+  
+  #works h1 {
+    font: 24px/36px "opensans-bold", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--text);
+    margin-bottom: 6px;
+  }
+  #works h1:before {
+    font-family: "FontAwesome";
+    padding-right: 10px;
+    font-size: 72px;
+    line-height: 72px;
+    text-align: left;
+    float: left;
+    color: var(--text);
+  }
+  
+  #works h4 {
+    font: 16px/24px "opensans-bold", sans-serif;
+    color: var(--text);
+    margin-bottom: 6px;
+  }
+  #works p.lead {
+    font: 18px/36px "opensans-light", sans-serif;
+    padding-right: 3%;
+  }
+
+  #works .info {
+      color: var(--text);
+      text-align: left;
+      margin-top: 10px;
+  }

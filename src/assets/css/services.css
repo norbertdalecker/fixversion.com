@@ -1,0 +1,106 @@
+:root {
+    --text: rgba(46, 62, 78, 1);
+    --background: #fefefe;
+    --hover: #f0c514;
+}
+.services-section{
+	padding:6em 0;
+	padding-bottom: 0em;
+}
+.services-header{
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+
+}
+.services-header h3
+{
+	font-size: 2.5em;
+	font-family: 'Arvo', serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: var(--text);
+}
+.services-header h3 span {
+	color: var(--hover);
+}
+.services-header p{
+	line-height: 1.5em;
+	font-size: 15px;
+	color: var(--text);
+	padding: 25px 0;
+}
+.services-sectiongrids {
+	text-align: center;
+}
+.services-grid h4 {
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 15px 0;
+	color: var(--text);
+	text-transform: uppercase;
+}
+.services-grid p {
+	font-size: 15px;
+	color: var(--text);
+	padding: 0 22px;
+}
+
+/* scrolldown link */
+.services-sectiongrids .scrolldown a {
+    color: var(--text);
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    border-radius: 21px;
+  
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .services-sectiongrids .scrolldown a:hover {
+    color: var(--hover);
+  }
+  
+  .slick-common {
+	height: 42px !important;
+    width: 42px !important;
+  }
+
+  .slick-common::before {
+    font-size: 42px !important;
+	color: var(--text) !important;
+	line-height: 42px !important;
+	opacity: 1 !important;
+  }
+
+  .slick-common::before:hover {
+	color: var(--hover) !important;
+  }
+  .Icon svg{
+	vertical-align: middle;
+	background-color: var(--hover);
+	height: 100px;
+	width: 100px;
+	border: 1px solid var(--hover);
+	border-radius: 15px;
+	color: var(--background);;
+	font-size: 70px;
+	padding: 15px;
+  }
+  .photoPanel img {
+	max-width: 80%;
+	max-height: 80%;
+	margin: auto;
+	vertical-align: middle;
+  }  
+  @media (min-width: 992px){
+	.photoPanel img {
+		max-width: 50%;
+		max-height: 50%;
+		margin: auto;
+		vertical-align: middle;
+	}
+  }

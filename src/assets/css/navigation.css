@@ -1,0 +1,98 @@
+
+input[type="button"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+h1,h2,h3,h4,h5,h6{
+	padding:0 0;
+	margin:0 0;
+}
+p{
+	padding:0 0;
+	margin:0 0;
+}
+ul{
+	padding:0 0;
+	margin:0 0;	
+}
+body{
+	padding:0 0;
+	margin:0 0; 
+	font-family: 'Open Sans', sans-serif;
+	
+	
+}
+#nav-wrap{
+	float:right;
+	background: rgba(46, 62, 78,50%);
+}
+#nav-wrap ul li{
+	display: inline-block;
+	padding: 5px 15px 0px 15px;
+}
+#nav-wrap ul li a{
+	font-size: 1.1em;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+#nav-wrap ul li a:hover {
+	color: #ebc20e;
+	
+	
+}
+#nav-wrap ul li a.active {
+	color: #ebc20e;
+	font-weight: 600;
+}
+nav a {
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+/* Effect 5: same word slide in */
+.cl-effect-5 a {
+	overflow: hidden;
+}
+
+.cl-effect-5 a span {
+	position: relative;
+	display: inline-block;
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.cl-effect-5 a span::before {
+	position: absolute;
+	top: 100%;
+	content: attr(data-hover);
+	font-weight: 700;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.cl-effect-5 a:hover span,
+.cl-effect-5 a:focus span {
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	transform: translateY(-100%);
+}

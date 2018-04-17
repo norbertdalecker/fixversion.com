@@ -23,7 +23,7 @@ const Navigation = () => (
       </li>
       <li>
         <a className="smoothscroll" href="#works">
-        <span data-hover="Works">works</span>
+        <span data-hover="Experience">experience</span>
         </a>
       </li>      
       <li>

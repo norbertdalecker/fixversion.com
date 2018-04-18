@@ -3,7 +3,7 @@ import { FaChevronCircleUp } from "react-icons/lib/fa";
 
 const Footer = () => (
   <footer id="footer">
-    <div className="row">
+    <div style={{margin:"0px auto"}} className="row">
       <div id="go-top">
         <a className="smoothscroll" title="Back to Top" href="#home">
           <FaChevronCircleUp />

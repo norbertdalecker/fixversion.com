@@ -135,7 +135,8 @@ const texts = {
           <br/><br/>
           These are the areas where I can support the work of your teams:
           <br/>
-          </p>
+          </p>,
+      devOpsContact: "Now that you know what I've done and what I could do for you, feel free to reach out and start a conversation. I always enjoy speaking with passionate business owners about their needs."
 
 };
 

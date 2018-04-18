@@ -83,10 +83,20 @@ const Services = () => (
               </div>;
           })}
           </Slider>
-
+          
         </div>
         <div className="services-sectiongrids">
-          <div style={{paddingBottom: '20px'}} className="clearfix">{" "}</div>
+          <div style={{paddingTop: '20px',paddingBottom: '20px'}} className="clearfix">
+          </div>
+          <strong className="services-title">Are you interested?</strong>
+          <p><br/>{texts.devOpsContact}</p>
+        </div>
+        <div className="services-sectiongrids">
+          <a className="smoothscroll" href="#contact">
+            <button paddingTop="20px" type="button" >
+            Contact me today     
+            </button>
+          </a>
         </div>
       </div>
     </div>

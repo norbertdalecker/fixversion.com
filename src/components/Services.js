@@ -65,13 +65,13 @@ const Services = () => (
         <div className="services-header">
           <h3><span>[</span> services <span>]</span></h3>
           <div className="services-header photoPanel">
-          <img src={devOpsPic} />
+            <img src={devOpsPic} />
           </div>
           <strong className="services-title">What is DevOps?</strong>
           <p>" {texts.devOpsBio} " {texts.devOpsBioSource} </p>
-         
-
-
+        
+          <strong className="services-title">What can I do four you?</strong>
+          {texts.devOpsWhy}
         </div>
         <div className="services-sectiongrids">
         <Slider {...settings}>

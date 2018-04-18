@@ -65,32 +65,32 @@ const texts = {
     services: [
         {
             title: 'Research and planning',
-            description: 'start scrolling',
+            description: 'Prototyping, finding solutions for complex problems, evaluation, validation.',
             icon: <FaCogs />
         },
         {
             title: 'Application development',
-            description: 'start scrolling',
+            description: 'Classical software development inside the borders of my knowledge.',
             icon: <FaCodeFork />
         },
         {
             title: 'Platform development',
-            description: 'start scrolling',
+            description: 'IaaS, operations in cloud ecosystem, infrastructure automation',
             icon: <FaCloud />
         },
         {
             title: 'CI/CD pipelines',
-            description: 'start scrolling',
+            description: 'Design, create, refact continous integration and delivery solutions.',
             icon: <FaCubes />
         },
         {
             title: 'Monitoring and alerting',
-            description: 'start scrolling',
+            description: 'Design, implement, renew, maintenance in different technological stacks.',
             icon: <FaDesktop />
         },
         {
             title: 'Support and consultation',
-            description: 'start scrolling',
+            description: 'Feel free to call me if you just need a hint or a different view.',
             icon: <FaSkype />
         }
     ],
@@ -115,6 +115,7 @@ const texts = {
         {name: "Kubernetes", years: 0.5},
         {name: "Keycloak", years: 2},
         {name: "Aws", years: 2},
+        {name: "Elastic-Logstash-Kibana stack", years: 2},
         {name: "Azure", years: 0.5},
         {name: "Haproxy/Nginx/Apache", years: 6},
         {name: "Wildfly", years: 3},
@@ -125,7 +126,16 @@ const texts = {
         return a.name.localeCompare(b.name);
       }),
       devOpsBio: "DevOps is not a technology or tool, it is a concept of behavior, and It is an extension of Agile Methodology. The DevOps is a set of practices designed to overcome the gap between development, QA and Operations by effective communication and collaboration, incorporating continuous integration process with automated deployment. DevOps helps to increase an organization's speed to deliver applications and services. It allows organizations to serve their customers better and compete more strongly in the market.",
-      devOpsBioSource: <a href="https://www.quora.com/What-is-DevOps-What-are-the-duties-of-a-DevOps-Engineer"> ( source )</a>
+      devOpsBioSource: <a href="https://www.quora.com/What-is-DevOps-What-are-the-duties-of-a-DevOps-Engineer"> ( source )</a>,
+      devOpsWhy: <p>Today 'DevOps' is a buzzword but it is undeniably true that a great DevOps engineer is seriously a game changer. 
+          When you work with a DevOps engineer, you will ensure that the system is running smoothly and being monitored so that you can respond to issues as it arises. 
+          You will ensure that your developers are never doing repetitive tasks, and the infrastructure is kept up to date as the stack evolves. As the processes change and the company grows, 
+          the DevOps engineer automates as much as possible to accelerate work. 
+          Because of DevOps, developers can focus on their core work so you can deliver products earlier and more reliably.
+          <br/><br/>
+          These are the areas where I can support the work of your teams:
+          <br/>
+          </p>
 
 };
 

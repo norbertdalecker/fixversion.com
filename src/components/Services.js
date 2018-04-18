@@ -59,7 +59,7 @@ const settings = {
 const Services = () => (
   <section id="services">
 
-    <div className="services-section" id="services">
+    <div className="services-section" id="servicesdiv">
 
       <div className="container">
         <div className="services-header">

@@ -149,7 +149,20 @@ const texts = {
           I'm a DevOps engineer with many technical knowledge and experience. My primary domains are: infrastructure automation, integration of different types of systems, make and maintain distributed systems.
           I'm the person in a software project who not only “code” but gain the operations knowledge needed to support the application in production.
           
-          </p>
+          </p>,
+      bannerMessage: <h3>
+            I'm a  <span>full stack developer</span>, 
+            <span> devops engineer</span> and <span>full-time learner</span>. I follow the trends and make awesome solutions in software development.
+             Let's learn more
+            <a className="smoothscroll" href="#about">
+                {" "}
+                about me
+            </a> and 
+            <a className="smoothscroll" href="#services">
+                {" "}
+                build something amazing together
+            </a>{" "}.
+        </h3>
 
 };
 

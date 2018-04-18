@@ -36,7 +36,8 @@
 	float: left;
 	width: 65%;
 	margin-top:3%;
-	color: var(--text);
+    color: var(--text);
+    text-align: justify;
 }
 .about-text p {
 	font-size: 15px;

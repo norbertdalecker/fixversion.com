@@ -136,7 +136,20 @@ const texts = {
           These are the areas where I can support the work of your teams:
           <br/>
           </p>,
-      devOpsContact: "Now that you know what I've done and what I could do for you, feel free to reach out and start a conversation. I always enjoy speaking with passionate business owners about their needs."
+      devOpsContact: "Now that you know what I've done and what I could do for you, feel free to reach out and start a conversation. I always enjoy speaking with passionate business owners about their needs.",
+      contactMessage:<p> <strong>I’m currently available for freelance work. </strong> <br/> Feel free to reach out to me if you have any questions or comments about the services I offer. If you have a project that you want to get started, think you need my help with something or you could always just send me a friendly hello, then get in touch.</p>,
+      aboutMessage: <p>
+          <b> My name is Norbert Dalecker </b>. <br/> 
+          I'm an engineer who wants to transform his passion for technology into real value for other people.
+          My personal goal in life is not only to fix things but to make them better ones.
+          <br/>
+          In the last 5 years I have been striving to know all aspects of a real product. From business analysis, design through implementation, delivery and support.
+          I was a backend developer (Java, C#, php) and used very large databases (MSSQL, and SQL Azure), mobile developer (Android until 4.4), frontend developer (jQuery w/ bootstrap, Angular, React, D3, Highcharts), system operator (lxc, hyperV, datadog, sensu, prometheus, newrelic, sematext), devops engineer (ansible, docker, vagrant, chef, rancher, kubernetes, AWS, jenkins, travis, gocd, circleci, sonarqube, gradle etc.) 
+          <br/>
+          I'm a DevOps engineer with many technical knowledge and experience. My primary domains are: infrastructure automation, integration of different types of systems, make and maintain distributed systems.
+          I'm the person in a software project who not only “code” but gain the operations knowledge needed to support the application in production.
+          
+          </p>
 
 };
 

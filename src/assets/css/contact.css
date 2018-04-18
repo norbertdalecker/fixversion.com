@@ -60,11 +60,11 @@ border-bottom: 1px solid var(--background);
   
   #contact a,
   #contact a:visited {
-    color: var(--hover);
+    color: var(--text);
   }
   #contact a:hover,
   #contact a:focus {
-    color: var(--text);
+    color: var(--hover);
   }
   
   #contact h1 {

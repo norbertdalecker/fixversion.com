@@ -918,21 +918,22 @@ header .banner-text hr {
 }
 
 /* header social links */
-header .social {
+.social {
   margin: 24px 0;
   padding: 0;
   font-size: 30px;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+  text-align: center;
 }
-header .social li {
+.social li {
   display: inline-block;
   margin: 0 15px;
   padding: 0;
 }
-header .social li a {
+.social li a {
   color: #fff;
 }
-header .social li a:hover {
+.social li a:hover {
   color: #ebc20e;
 }
 
@@ -1357,17 +1358,11 @@ footer .social li:first-child {
     width: 90%;
  }
 
- /* header social links */
- header .social { font-size: 20px;}
- header .social li { margin: 0 6px; }
-
- /* footer
- ------------------------------------------------------------------------ */
-
  /* social links */
- footer .social { font-size: 20px; }
- footer .social li { margin-left: 14px; }
+ .social { font-size: 20px;}
+ .social li { margin: 0 6px; }
 
+ 
 }
 
 

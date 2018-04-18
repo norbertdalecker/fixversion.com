@@ -137,7 +137,8 @@ const texts = {
           <br/>
           </p>,
       devOpsContact: "Now that you know what I've done and what I could do for you, feel free to reach out and start a conversation. I always enjoy speaking with passionate business owners about their needs.",
-      contactMessage:<p> <strong>I’m currently available for freelance work. </strong> <br/> Feel free to reach out to me if you have any questions or comments about the services I offer. If you have a project that you want to get started, think you need my help with something or you could always just send me a friendly hello, then get in touch.</p>,
+      contactMessage:<p> <strong>I’m currently available for freelance work. </strong> <br/>
+       Feel free to reach out to me if you have any questions or comments about the services I offer. If you have a project that you want to get started, think you need my help with something or you could always just send me a friendly hello at, then get in touch.</p>,
       aboutMessage: <p>
           <b> My name is Norbert Dalecker </b>. <br/> 
           I'm an engineer who wants to transform his passion for technology into real value for other people.
@@ -162,7 +163,13 @@ const texts = {
                 {" "}
                 build something amazing together
             </a>{" "}.
-        </h3>
+        </h3>,
+        mailaddress: "&#105;&#110;&#102;&#111;&#064;&#102;&#105;&#120;&#118;&#101;&#114;&#115;&#105;&#111;&#110;&#046;&#099;&#111;&#109;",
+        mailAdd: function(){
+            var user = "info";
+            var domain = "fixversion.com"
+            return user+"@"+domain;
+        }
 
 };
 

@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import SocialLinks from "./SocialLinks";
 const settings = {
   // dots: true,
   infinite: true,
@@ -10,7 +11,6 @@ const settings = {
   swipeToSlide: true
 };
 import texts from "../store/texts"
-const mailaddress=<p>&#105;&#110;&#102;&#111;&#064;&#102;&#105;&#120;&#118;&#101;&#114;&#115;&#105;&#111;&#110;&#046;&#099;&#111;&#109;</p>;
 
 const Contact = () => (
   <section className="footer-section" id="contact">
@@ -20,6 +20,11 @@ const Contact = () => (
           {texts.contactMessage}
         </div>
        
+      </div>
+      <div style={{margin: "0px auto"}} className="row banner">
+      <div className="banner-text">
+      <SocialLinks />
+      </div>
       </div>
   </section>
 );

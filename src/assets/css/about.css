@@ -25,8 +25,9 @@
 }
 .about-imag {
 	float: left;
-	width:27%;
-	margin-right:5%
+	width: 100%;
+    margin-right:5%;
+    margin-top: 5%;
 }
 .about-imag img {
 	border: 2px solid var(--hover);
@@ -34,7 +35,7 @@
 }
 .about-text {
 	float: left;
-	width: 65%;
+	width: 100%;
 	margin-top:3%;
     color: var(--text);
     text-align: justify;
@@ -146,6 +147,23 @@ h4{
 @media (min-width: 768px){
     .container {
         width: 750px;
+    }
+    .about-imag {
+        float: left;
+        width:27%;
+        margin-right:5%;
+        margin-top: 5%;
+    }
+    .about-imag img {
+        border: 2px solid var(--hover);
+        border-radius: 103px;
+    }
+    .about-text {
+        float: left;
+        width: 65%;
+        margin-top:3%;
+        color: var(--text);
+        text-align: justify;
     }
 }
 @media (min-width: 992px){

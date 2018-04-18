@@ -2,15 +2,9 @@ import React from "react";
 import ScrollDown from "../elements/ScrollDown";
 import Slider from "react-slick";
 import CustomArrow from "../elements/CustomArrow"
-import {
-  FaCogs,
-  FaCodeFork,
-  FaCloud,
-  FaCubes,
-  FaDesktop,
-  FaSkype
-} from "react-icons/lib/fa";
 
+
+import texts from "../store/texts"
 import devOpsPic from '../assets/images/devops.png'
 
 const settings = {
@@ -61,14 +55,7 @@ const settings = {
     ]
   };
 
-  const services = [
-    {title: 'Research and planning', description: 'start scrolling', icon: <FaCogs />},
-    {title: 'Application development', description: 'start scrolling', icon: <FaCodeFork />},
-    {title: 'Platform development', description: 'start scrolling', icon: <FaCloud />},
-    {title: 'CI/CD pipelines', description: 'start scrolling', icon: <FaCubes />},
-    {title: 'Monitoring and alerting', description: 'start scrolling', icon: <FaDesktop />},
-    {title: 'Support and consultation', description: 'start scrolling', icon: <FaSkype />}
-  ];
+
 const Services = () => (
   <section id="services">
 
@@ -77,14 +64,18 @@ const Services = () => (
       <div className="container">
         <div className="services-header">
           <h3><span>[</span> services <span>]</span></h3>
-          <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
           <div className="services-header photoPanel">
           <img src={devOpsPic} />
-        </div>
+          </div>
+          <strong className="services-title">What is DevOps?</strong>
+          <p>" {texts.devOpsBio} " {texts.devOpsBioSource} </p>
+         
+
+
         </div>
         <div className="services-sectiongrids">
         <Slider {...settings}>
-          {services.map(function(object, i){
+          {texts.services.map(function(object, i){
             return <div key={i} className="col-md-4 services-grid">
                 <div className="Icon">{object.icon}</div>
                 <h4>{object.title}</h4>

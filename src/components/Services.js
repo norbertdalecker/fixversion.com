@@ -86,9 +86,8 @@ const Services = () => (
 
         </div>
         <div className="services-sectiongrids">
-        <div style={{paddingBottom: '20px'}} className="clearfix"></div>
-          <ScrollDown target="#about"/>
-          </div>
+          <div style={{paddingBottom: '20px'}} className="clearfix">{" "}</div>
+        </div>
       </div>
     </div>
   </section>

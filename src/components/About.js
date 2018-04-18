@@ -54,7 +54,6 @@ const About = () => (
       </div>
       <div className="clearfix"></div>
     </div>
-    <ScrollDown target="#works"/>
   </section>
 );
 

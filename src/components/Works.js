@@ -59,7 +59,6 @@ const Works = () => (
             })}
             </div>
         </div>
-        <ScrollDown target="#contact" />
     </section>
 
 );

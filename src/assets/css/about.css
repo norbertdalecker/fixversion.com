@@ -116,6 +116,7 @@ h4{
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 25px;
 }
 .container:after {
     content: "\0020";

@@ -10,6 +10,7 @@ const settings = {
   slideToScroll: 1,
   swipeToSlide: true
 };
+import ContactCard from "../elements/ContactCard";
 import texts from "../store/texts"
 
 const Contact = () => (
@@ -22,6 +23,9 @@ const Contact = () => (
        
       </div>
       <div style={{margin: "0px auto"}} className="row banner">
+      <div className="banner-text">
+      <ContactCard />
+      </div>
       <div className="banner-text">
       <SocialLinks />
       </div>

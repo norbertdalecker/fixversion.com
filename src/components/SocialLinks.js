@@ -20,7 +20,7 @@ const SocialLinks = () => (
       </a>
     </li>
     <li>
-      <a href="www.linkedin.com/in/norbert-dalecker-a74b3a91">
+      <a href="https://www.linkedin.com/in/norbert-dalecker-a74b3a91">
         <FaLinkedin />
       </a>
     </li>
@@ -30,7 +30,7 @@ const SocialLinks = () => (
       </a>
     </li>
     <li>
-      <a href="skype:echo123">
+      <a href="skype:norbertdalecker">
         <FaSkype />
       </a>
     </li>    

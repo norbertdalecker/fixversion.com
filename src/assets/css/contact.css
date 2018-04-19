@@ -51,7 +51,7 @@ border-bottom: 1px solid var(--background);
 #contact {
     background: var(--background);
     padding-top: 6em;
-    padding-bottom: 102px;
+    padding-bottom: 42px;
     color: var(--background);
   }
   #contact .section-head {

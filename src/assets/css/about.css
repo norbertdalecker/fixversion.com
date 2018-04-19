@@ -112,7 +112,9 @@ h4{
   width: 0;
   height: 0;
 }
-
+.competences {
+height: 30px;
+}
 .container {
     padding-right: 15px;
     padding-left: 15px;

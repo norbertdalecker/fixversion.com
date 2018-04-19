@@ -38,6 +38,7 @@ const About = () => (
         </div>
         <div className="clearfix"></div>
       </div>
+      <div id="competences" className="competences"></div>
       <div className="about-sectiongrids">
         <h4>Experience with tools and technologies</h4>
         <div className="col-md-6 about-leftgrid">

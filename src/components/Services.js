@@ -79,7 +79,7 @@ const Services = () => (
             return <div key={i} className="col-md-4 services-grid">
                 <div className="Icon">{object.icon}</div>
                 <h4>{object.title}</h4>
-                <p>{object.description}</p>
+                {object.description}
               </div>;
           })}
           </Slider>

@@ -17,7 +17,7 @@ const texts = {
         },
         {
             title: 'High School Graduate',
-            description: 'Lajos the great Grammar School of the Cistercian Order, Hungary, 2005 – 2009'
+            description: 'Nagy Lajos High school of the Cistercian Order, Hungary, 2005 – 2009'
         },
     ],
     workplaces: [
@@ -65,32 +65,32 @@ const texts = {
     services: [
         {
             title: 'Research and planning',
-            description: 'Prototyping, finding solutions for complex problems, evaluation, validation.',
+            description: <p>Prototyping, finding solutions for complex problems, evaluation, validation.</p>,
             icon: <FaCogs />
         },
         {
             title: 'Application development',
-            description: 'Classical software development inside the borders of my knowledge.',
+            description: <p>Classical software development, <a className="smoothscroll" href="#competences">check my competences.</a></p>,
             icon: <FaCodeFork />
         },
         {
             title: 'Platform development',
-            description: 'IaaS, operations in cloud ecosystem, infrastructure automation',
+            description: <p>IaaS, operations in cloud ecosystem, infrastructure automation.</p>,
             icon: <FaCloud />
         },
         {
             title: 'CI/CD pipelines',
-            description: 'Design, create, refact continous integration and delivery solutions.',
+            description: <p>Design, create, refact continous integration and delivery solutions.</p>,
             icon: <FaCubes />
         },
         {
             title: 'Monitoring and alerting',
-            description: 'Design, implement, renew, maintenance in different technological stacks.',
+            description: <p>Design, implement, renew, maintenance in different technological stacks.</p>,
             icon: <FaDesktop />
         },
         {
             title: 'Support and consultation',
-            description: 'Feel free to call me if you just need a hint or a different view.',
+            description: <p>Feel free to call me if you just need a hint or a different view.</p>,
             icon: <FaSkype />
         }
     ],
@@ -128,8 +128,8 @@ const texts = {
       devOpsBio: "DevOps is not a technology or tool, it is a concept of behavior, and It is an extension of Agile Methodology. The DevOps is a set of practices designed to overcome the gap between development, QA and Operations by effective communication and collaboration, incorporating continuous integration process with automated deployment. DevOps helps to increase an organization's speed to deliver applications and services. It allows organizations to serve their customers better and compete more strongly in the market.",
       devOpsBioSource: <a href="https://www.quora.com/What-is-DevOps-What-are-the-duties-of-a-DevOps-Engineer"> ( source )</a>,
       devOpsWhy: <p>Today 'DevOps' is a buzzword but it is undeniably true that a great DevOps engineer is seriously a game changer. 
-          When you work with a DevOps engineer, you will ensure that the system is running smoothly and being monitored so that you can respond to issues as it arises. 
-          You will ensure that your developers are never doing repetitive tasks, and the infrastructure is kept up to date as the stack evolves. As the processes change and the company grows, 
+          When you work with a DevOps engineer, you ensure that the system is running smoothly and being monitored, so that you can respond to issues as it arises. 
+          You ensure that your developers are never doing repetitive tasks, and the infrastructure is kept up to date as the stack evolves. As the processes change and the company grows, 
           the DevOps engineer automates as much as possible to accelerate work. 
           Because of DevOps, developers can focus on their core work so you can deliver products earlier and more reliably.
           <br/><br/>

@@ -1418,9 +1418,8 @@ footer .social li:first-child {
 }
 
 a:-webkit-any-link {
-  color: -webkit-link;
   cursor: pointer;
-  text-decoration: underline;
+  font-weight: 600;
 }
 
 nav a {

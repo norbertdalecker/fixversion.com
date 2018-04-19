@@ -33,6 +33,10 @@ color: var(--text);
 	padding: 25px 0;
 }
 
+.list-group-item{
+  color: var(--text);
+}
+
 .works {
   text-align: center;
     border-bottom: 1px solid var(--background);

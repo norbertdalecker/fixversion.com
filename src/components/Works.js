@@ -29,7 +29,7 @@ const Works = () => (
                         <p className="info">
                         <ul style={{listStyleType: "none"}}>
                         {object.competences.map(function(competence, j){
-                            return   <li key={j}className="list-group-item">{competence}</li>
+                            return   <li key={j} className="list-group-item">{competence}</li>
                         })}
                         </ul>
                         </p>

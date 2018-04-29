@@ -70,7 +70,7 @@ const Services = () => (
           <strong className="services-title">What is DevOps?</strong>
           <p>" {texts.devOpsBio} " {texts.devOpsBioSource} </p>
         
-          <strong className="services-title">What can I do four you?</strong>
+          <strong className="services-title">What can I do for you?</strong>
           {texts.devOpsWhy}
         </div>
         <div className="services-sectiongrids">

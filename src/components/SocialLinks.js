@@ -1,4 +1,5 @@
 import React from "react";
+import Mailto from "react-mailto";
 import {
   FaFacebook,
   FaGithub,
@@ -25,9 +26,9 @@ const SocialLinks = () => (
       </a>
     </li>
     <li>
-      <a href={"mailto:"+texts.mailAdd()}>
+      <Mailto email={texts.mailAdd()} obfuscate={true}>
         <FaAt />
-      </a>
+      </Mailto>
     </li>
     <li>
       <a href="skype:norbertdalecker">

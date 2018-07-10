@@ -5,7 +5,8 @@ import {
   FaGithub,
   FaAt,
   FaSkype,
-  FaLinkedin
+  FaLinkedin,
+  FaPaypal
 } from "react-icons/lib/fa";
 import FaDocker from "../elements/FaDocker";
 import FaNpm from "../elements/FaNpm";
@@ -34,9 +35,14 @@ const SocialLinks = () => (
       <a href="skype:norbertdalecker">
         <FaSkype />
       </a>
-    </li>    
+    </li>
     <li>
-      <a href="https://www.npmjs.com/~norbertdalecker/">
+      <a href="https://paypal.me/NorbertDalecker">
+        <FaPaypal />
+      </a>
+    </li>     
+    <li>
+      <a href="https://www.freelancer.com/u/norbertdalecker">
         <FaFreelancer />
       </a>
     </li>     

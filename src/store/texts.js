@@ -22,6 +22,29 @@ const texts = {
     ],
     workplaces: [
         { 
+            title: 'DevOps Engineer',
+            company: 'as Freelancer',
+            interval:'Budapest, Apr 2018 - Present',
+            url: 'https://fixversion.com', 
+            competences: [
+               <span>Please see my <a href="#services">Services</a> section.</span>
+            ]
+        },
+        { 
+            title: 'CI Engineer',
+            company: 'memoQ Translation Technologies',
+            interval:'Budapest, May 2018 - Present',
+            url: 'https://memoq.com', 
+            competences: [
+                'Design and integrate automation tools fordevelopment, deployment',
+                'Proactively own, improve and tune the CI/CD system to increase development productivity',
+                'Help to create and enforce practical processes for a continuous integration environment',
+                'Increasing the velocity of the build process and improving code sharing capabilities',
+                'Identify and eliminate road blocks to improving flow from development to production',
+                'Providing support to services team to automate infrastructure and configuration'
+            ]
+        },
+        { 
             title: 'DevOps Engineer, Tech Lead',
             company: 'Precognox',
             interval:'Budapest, Feb 2015 - Apr 2018',

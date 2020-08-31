@@ -1,11 +1,10 @@
 import React from "react";
 import profilepic from "../assets/images/profilepic.jpg";
-import ScrollDown from "../elements/ScrollDown";
 
 import texts from "../store/texts";
 
 function generateExperienceString(years) {
-  return (years > 5 ? "5+" : (years < 1 ? "less than a" : years))+(years> 1 ? " years" : " year");
+  return (years > 8 ? "8+" : (years < 1 ? "less than a" : years))+(years> 1 ? " years" : " year");
 };
 
 function generateExperienceRow(object,i) {
@@ -20,7 +19,7 @@ function generateExperienceRow(object,i) {
       <div className="clearfix"></div>
     </div>
     <div className="skills">
-      <div style={{ width: Math.min(100, object.years / 5 * 100) + "%" }} > </div>
+      <div style={{ width: Math.min(100, object.years / 8 * 100) + "%" }} > </div>
     </div>
   </div>;
 };

@@ -1,5 +1,5 @@
-:root {
-    --text: #fefefe;	
+#about {
+    --text: #fefefe;
     --background: #2e3e4e;
     --hover: #f0c514;
 }
@@ -98,11 +98,11 @@ h4{
   overflow: hidden;
   visibility: hidden;
   width: 0;
-  height: 0; 
+  height: 0;
 }
 .row:after,
 .clearfix:after {
-  clear: both; 
+  clear: both;
 }
 .clear {
   clear: both;
@@ -137,7 +137,7 @@ height: 30px;
     font-size: 42px;
     line-height: 42px;
     border-radius: 21px;
-  
+
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -172,11 +172,9 @@ height: 30px;
     .container {
         width: 970px;
     }
-}    
+}
 @media (min-width: 1200px){
     .container {
         width: 1170px;
     }
 }
-
-

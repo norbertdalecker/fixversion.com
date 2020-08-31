@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "gatsby-link";
 import "../assets/css/main.css";
 import "../assets/css/navigation.css";
 
@@ -15,17 +14,17 @@ import About from "../components/About";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Works from "../components/Works"
-
+import TemplateWrapper from "../layouts"
 const IndexPage = () => (
-  <div>
+  <TemplateWrapper>
     <Header />
     <Services />
-    <About />     
+    <About />
     <Works />
 
     <Contact />
     <Footer />
-  </div>
+  </TemplateWrapper>
 );
 
 export default IndexPage;

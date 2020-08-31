@@ -1,6 +1,5 @@
-
 import React from 'react'
-import Icon from 'react-icon-base'
+import {default as Icon} from 'react-icon-base'
 
 const FaDocker = props => (
     <Icon viewBox="0 0 640 512" {...props}>

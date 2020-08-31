@@ -1,5 +1,4 @@
 import React from "react";
-import ScrollDown from "../elements/ScrollDown";
 import Slider from "react-slick";
 import CustomArrow from "../elements/CustomArrow"
 
@@ -65,11 +64,11 @@ const Services = () => (
         <div className="services-header">
           <h3><span>[</span> services <span>]</span></h3>
           <div className="services-header photoPanel">
-            <img src={devOpsPic} />
+            <img src={devOpsPic} alt="devops" />
           </div>
           <strong className="services-title">What is DevOps?</strong>
           <p>" {texts.devOpsBio} " {texts.devOpsBioSource} </p>
-        
+
           <strong className="services-title">What can I do for you?</strong>
           {texts.devOpsWhy}
         </div>
@@ -83,7 +82,7 @@ const Services = () => (
               </div>;
           })}
           </Slider>
-          
+
         </div>
         <div className="services-sectiongrids">
           <div style={{paddingTop: '20px',paddingBottom: '20px'}} className="clearfix">
@@ -93,8 +92,8 @@ const Services = () => (
         </div>
         <div className="services-sectiongrids">
           <a className="smoothscroll" href="#contact">
-            <button paddingTop="20px" type="button" >
-            Contact me today     
+            <button style={{paddingTop: '20px'}} type="button" >
+            Contact me today
             </button>
           </a>
         </div>

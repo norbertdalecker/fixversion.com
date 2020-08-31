@@ -1,4 +1,4 @@
-:root {
+#contact {
   --background: rgba(46, 62, 78, 1);
   --text: #fefefe;
   --hover: #f0c514;
@@ -57,7 +57,7 @@ border-bottom: 1px solid var(--background);
   #contact .section-head {
     margin-bottom: 42px;
   }
-  
+
   #contact a,
   #contact a:visited {
     color: var(--text);
@@ -66,7 +66,7 @@ border-bottom: 1px solid var(--background);
   #contact a:focus {
     color: var(--hover);
   }
-  
+
   #contact h1 {
     font: 18px/24px "opensans-bold", sans-serif;
     text-transform: uppercase;
@@ -87,7 +87,7 @@ border-bottom: 1px solid var(--background);
     float: left;
     color: var(--text);
   }
-  
+
   #contact h4 {
     font: 16px/24px "opensans-bold", sans-serif;
     color: var(--text);

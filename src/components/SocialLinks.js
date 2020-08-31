@@ -1,16 +1,15 @@
 import React from "react";
-import Mailto from "react-mailto";
+import Obfuscate from 'react-obfuscate'
 import {
   FaFacebook,
   FaGithub,
+  FaGitlab,
   FaAt,
   FaSkype,
   FaLinkedin,
-  FaPaypal
-} from "react-icons/lib/fa";
+} from "react-icons/fa";
 import FaDocker from "../elements/FaDocker";
 import FaNpm from "../elements/FaNpm";
-import FaFreelancer from "../elements/FaFreelancer";
 import texts from "../store/texts"
 // https://gorangajic.github.io/react-icons/fa.html
 
@@ -27,25 +26,15 @@ const SocialLinks = () => (
       </a>
     </li>
     <li>
-      <Mailto email={texts.mailAdd()} obfuscate={true}>
+      <Obfuscate email={texts.mailAdd()}>
         <FaAt />
-      </Mailto>
+      </Obfuscate>
     </li>
     <li>
       <a href="skype:norbertdalecker">
         <FaSkype />
       </a>
     </li>
-    <li>
-      <a href="https://paypal.me/NorbertDalecker">
-        <FaPaypal />
-      </a>
-    </li>     
-    <li>
-      <a href="https://www.freelancer.com/u/norbertdalecker">
-        <FaFreelancer />
-      </a>
-    </li>     
     <li>
       <a href="https://github.com/norbertdalecker">
         <FaGithub />
@@ -57,10 +46,15 @@ const SocialLinks = () => (
       </a>
     </li>
     <li>
+      <a href="https://gitlab.com/norbertdalecker">
+        <FaGitlab />
+      </a>
+    </li>
+    <li>
       <a href="https://www.npmjs.com/~norbertdalecker/">
         <FaNpm />
       </a>
-    </li>            
+    </li>
   </ul>
 );
 

@@ -2,12 +2,12 @@
 import React from "react";
 import {
     FaCogs,
-    FaCodeFork,
+    FaCodeBranch,
     FaCloud,
     FaCubes,
     FaDesktop,
     FaSkype
-  } from "react-icons/lib/fa";
+  } from "react-icons/fa";
 
 const texts = {
     education: [
@@ -21,20 +21,24 @@ const texts = {
         },
     ],
     workplaces: [
-        { 
+        {
             title: 'DevOps Engineer',
             company: 'as Freelancer',
             interval:'Budapest, Apr 2018 - Present',
-            url: 'https://fixversion.com', 
+            url: 'https://fixversion.com',
             competences: [
-               <span>Please see my <a href="#services">Services</a> section.</span>
+               'Build Cloud native CI pipelines',
+               'NodeJs and react development',
+               'Maintain enterprise scale kubernetes clusters',
+               'Maintain enterprise scale Elasticsearch clusters',
+               <span>For more information see my <a href="#services">Services</a> section.</span>,
             ]
         },
-        { 
-            title: 'CI Engineer',
+        {
+            title: 'CI Engineer, Frontend developer',
             company: 'memoQ Translation Technologies',
             interval:'Budapest, May 2018 - Present',
-            url: 'https://memoq.com', 
+            url: 'https://memoq.com',
             competences: [
                 'Design and integrate automation tools fordevelopment, deployment',
                 'Proactively own, improve and tune the CI/CD system to increase development productivity',
@@ -44,11 +48,11 @@ const texts = {
                 'Providing support to services team to automate infrastructure and configuration'
             ]
         },
-        { 
+        {
             title: 'DevOps Engineer, Tech Lead',
             company: 'Precognox',
             interval:'Budapest, Feb 2015 - Apr 2018',
-            url: 'https://www.precognox.com', 
+            url: 'https://www.precognox.com',
             competences: [
                 "I had to define and coordinate the technical tasks for the development, I was as a mentor and lead for the developers. I have knew the status of the developer’s work and detect slippage.",
                 "I had strong technical skills and had to develop the architecturally significant components of the software systems.",
@@ -94,7 +98,7 @@ const texts = {
         {
             title: 'Application development',
             description: <p>Classical software development, <a className="smoothscroll" href="#competences">check my competences.</a></p>,
-            icon: <FaCodeFork />
+            icon: <FaCodeBranch />
         },
         {
             title: 'Platform development',
@@ -120,40 +124,40 @@ const texts = {
     skills: [
         {name: "Java", years: 5},
         {name: "Groovy", years: 3},
-        {name: "Javascript", years: 7},
+        {name: "Javascript", years: 9},
         {name: "jQuery", years: 3},
-        {name: "ReactJs", years: 2},
+        {name: "ReactJs", years: 4},
         {name: "Angular (1/4)", years: 1},
         {name: "Android", years: 2},
-        {name: "SQL/MSSQL", years: 7},
+        {name: "SQL/MSSQL", years: 9},
         {name: "Electron", years: 0.5},
-        {name: "Docker", years: 3},
-        {name: "Node.js", years: 2},
+        {name: "Docker", years: 5},
+        {name: "Node.js", years: 4},
         {name: "Rancher", years: 2},
-        {name: "Jenkins", years: 3},
-        {name: "TrasvisCI", years: 1},
-        {name: "Datadog", years: 3},
-        {name: "Prometheus w/ Grafana", years: 1},
-        {name: "Ansible", years: 3},
-        {name: "Kubernetes", years: 0.5},
+        {name: "Jenkins", years: 5},
+        {name: "Terraform", years: 3},
+        {name: "Datadog", years: 5},
+        {name: "Prometheus w/ Grafana", years: 3},
+        {name: "Ansible", years: 5},
+        {name: "Kubernetes", years: 3},
         {name: "Keycloak", years: 2},
         {name: "Aws", years: 2},
-        {name: "Elastic-Logstash-Kibana stack", years: 2},
-        {name: "Azure", years: 0.5},
-        {name: "Haproxy/Nginx/Apache", years: 6},
-        {name: "Wildfly", years: 3},
+        {name: "Elastic-Logstash-Kibana stack", years: 4},
+        {name: "Azure", years: 1},
+        {name: "Haproxy/Nginx/Apache", years: 8},
+        {name: "Gitlab CI", years: 3},
         {name: "Jetty", years: 3},
-        {name: "C#", years: 2},
+        {name: "Google Cloud", years: 2},
         {name: "php", years: 2}
       ].sort(function(a, b) {
         return a.name.localeCompare(b.name);
       }),
       devOpsBio: "DevOps is not a technology or tool, it is a concept of behavior, and It is an extension of Agile Methodology. The DevOps is a set of practices designed to overcome the gap between development, QA and Operations by effective communication and collaboration, incorporating continuous integration process with automated deployment. DevOps helps to increase an organization's speed to deliver applications and services. It allows organizations to serve their customers better and compete more strongly in the market.",
       devOpsBioSource: <a href="https://www.quora.com/What-is-DevOps-What-are-the-duties-of-a-DevOps-Engineer"> ( source )</a>,
-      devOpsWhy: <p>Today 'DevOps' is a buzzword but it is undeniably true that a great DevOps engineer is seriously a game changer. 
-          When you work with a DevOps engineer, you ensure that the system is running smoothly and being monitored, so that you can respond to issues as it arises. 
-          You ensure that your developers are never doing repetitive tasks, and the infrastructure is kept up to date as the stack evolves. As the processes change and the company grows, 
-          the DevOps engineer automates as much as possible to accelerate work. 
+      devOpsWhy: <p>Today 'DevOps' is a buzzword but it is undeniably true that a great DevOps engineer is seriously a game changer.
+          When you work with a DevOps engineer, you ensure that the system is running smoothly and being monitored, so that you can respond to issues as it arises.
+          You ensure that your developers are never doing repetitive tasks, and the infrastructure is kept up to date as the stack evolves. As the processes change and the company grows,
+          the DevOps engineer automates as much as possible to accelerate work.
           Because of DevOps, developers can focus on their core work so you can deliver products earlier and more reliably.
           <br/><br/>
           These are the areas where I can support the work of your teams:
@@ -163,25 +167,25 @@ const texts = {
       contactMessage:<p> <strong>I’m currently available for freelance work. </strong> <br/>
        Feel free to reach out to me if you have any questions or comments about the services I offer. If you have a project that you want to get started or if you would like to just send me a friendly hello, then get in touch.</p>,
       aboutMessage: <p>
-          <b> My name is Norbert Dalecker </b>. <br/> 
+          <b> My name is Norbert Dalecker </b>. <br/>
           I'm an engineer who wants to transform his passion for technology into real value for other people.
           My personal goal in life is not only to fix things but to make them better ones.
           <br/>
           In the last 5 years I have been striving to know all aspects of a real product. From business analysis, design through implementation, delivery and support.
-          I was a backend developer (Java, C#, php) and used very large databases (MSSQL, and SQL Azure), mobile developer (Android until 4.4), frontend developer (jQuery w/ bootstrap, Angular, React, D3, Highcharts), system operator (lxc, hyperV, datadog, sensu, prometheus, newrelic, sematext), devops engineer (ansible, docker, vagrant, chef, rancher, kubernetes, AWS, jenkins, travis, gocd, circleci, sonarqube, gradle etc.) 
+          I was a backend developer (Java, C#, php) and used very large databases (MSSQL, and SQL Azure), mobile developer (Android until 4.4), frontend developer (jQuery w/ bootstrap, Angular, React, D3, Highcharts), system operator (lxc, hyperV, datadog, sensu, prometheus, newrelic, sematext), devops engineer (ansible, docker, vagrant, chef, rancher, kubernetes, AWS, jenkins, travis, gocd, circleci, sonarqube, gradle etc.)
           <br/>
           I'm a DevOps engineer with many technical knowledge and experience. My primary domains are: infrastructure automation, integration of different types of systems, make and maintain distributed systems.
           I'm the person in a software project who not only “code” but gain the operations knowledge needed to support the application in production.
-          
+
           </p>,
       bannerMessage: <h3>
-            I'm a  <span>full stack developer</span>, 
+            I'm a  <span>full stack developer</span>,
             <span> devops engineer</span> and <span>full-time learner</span>. I follow the trends and make awesome solutions in software development.
              Let's learn more
             <a className="smoothscroll" href="#about">
                 {" "}
                 about me
-            </a> and 
+            </a> and
             <a className="smoothscroll" href="#services">
                 {" "}
                 build something amazing together

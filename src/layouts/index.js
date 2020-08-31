@@ -6,10 +6,6 @@ if (typeof window !== 'undefined') {
   // Make scroll behavior of internal links smooth
   // eslint-disable-next-line global-require
   require('smooth-scroll')('a[href*="#"]',{speed: 1000});
-  if (location.protocol != 'https:')
-  {
-   // location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
-  }
 }
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -25,19 +21,19 @@ const TemplateWrapper = ({ children }) => (
         type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
-      <link 
+      <link
         href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic'
         rel='stylesheet'
         type='text/css'/>
-      <link 
+      <link
         href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
         rel='stylesheet'
         type='text/css'/>
-      
+
       <title>{siteMetadata.title}</title>
       <link rel="icon" href="../assets/favicon.png" type="image/x-icon"/>
     </Helmet>
-    {children()}
+    {children}
   </div>
 );
 

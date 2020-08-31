@@ -17,14 +17,14 @@ p{
 }
 ul{
 	padding:0 0;
-	margin:0 0;	
+	margin:0 0;
 }
 body{
 	padding:0 0;
-	margin:0 0; 
+	margin:0 0;
 	font-family: 'Open Sans', sans-serif;
-	
-	
+
+
 }
 #nav-wrap{
 	float:right;
@@ -39,12 +39,12 @@ body{
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
-	
+
 }
 #nav-wrap ul li a:hover {
 	color: #ebc20e;
-	
-	
+
+
 }
 #nav-wrap ul li a.active {
 	color: #ebc20e;

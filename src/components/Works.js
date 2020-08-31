@@ -1,5 +1,4 @@
 import React from "react";
-import ScrollDown from "../elements/ScrollDown";
 
 import texts from "../store/texts"
 
@@ -38,8 +37,8 @@ const Works = () => (
                 </div>;
             })}
             </div>
-        </div>    
-    
+        </div>
+
         <div className="row education">
             <div className="five columns header-col">
                 <h1>

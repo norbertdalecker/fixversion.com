@@ -1,4 +1,4 @@
-:root {
+#works {
     --background: #fefefe;
     --text: rgba(46, 62, 78, 1);
     --hover: #f0c514;
@@ -54,7 +54,7 @@ color: var(--text);
   #works .section-head {
     margin-bottom: 42px;
   }
-  
+
   #works a,
   #works a:visited {
     color: var(--text);
@@ -63,7 +63,7 @@ color: var(--text);
   #works a:focus {
     color:var(--hover);
   }
-  
+
   #works h1 {
     font: 24px/36px "opensans-bold", sans-serif;
     text-transform: uppercase;
@@ -80,7 +80,7 @@ color: var(--text);
     float: left;
     color: var(--text);
   }
-  
+
   #works h4 {
     font: 16px/24px "opensans-bold", sans-serif;
     color: var(--text);
